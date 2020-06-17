@@ -1,0 +1,29 @@
+commit 2cd466d265bc72fb5982009c43edbe62d2639394
+Author: sam1829 <sam1829@rit.edu>
+Date:   Tue Mar 15 23:15:24 2016 -0400
+
+    Finished ThreeDegrees.
+
+commit 9cf2e2ccbb7afbfd984832d68149e4fe592cf819
+Author: sam1829 <sam1829@rit.edu>
+Date:   Tue Mar 15 23:01:22 2016 -0400
+
+    Checks on ThreeDegrees, began to create print statements.
+
+commit 7fa031cee52eff076e26cd3c0ba0de1bb5676fe8
+Author: sam1829 <sam1829@rit.edu>
+Date:   Tue Mar 15 22:26:19 2016 -0400
+
+    Finished Graph.java by editing toString
+
+commit a256e6689df328cefb5a9d4f8aaafea9677ef3d3
+Author: sam1829 <sam1829@rit.edu>
+Date:   Tue Mar 15 22:13:45 2016 -0400
+
+    Finished editing contructor in Graph
+
+commit d7af9824859e9911b0cd5a533af4f09a3fe5a13d
+Author: sam1829 <sam1829@rit.edu>
+Date:   Tue Mar 15 21:26:49 2016 -0400
+
+    Began adding exceptions to ThreeDegrees.

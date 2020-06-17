@@ -1,0 +1,66 @@
+I created a test file called mymovies, which I used along with test1 (provided by the webpage) to test my material. It
+was used in order to use different names and test validity, as well as to complete every aspect of the checks
+created in ThreeDegrees. The actor names are as follows (some of which have connections to other movies, some with
+no connections, etc.) The actors and their respective movies are as follows:
+
+Lord of the Rings, which starred Andy Serkis, Elijah Wood, Orlando Bloom, and Sean Bean.
+The Prestige, which starred David Bowie, Christian Bale, Scarlett Johansson, Andy Serkis, and Hugh Jackman.
+The Dark Knight, which starred Christian Bale, Morgan Freeman, and Heath Ledger.
+Brokeback Mountain, which starred Heath Ledger and Anne Hathaway.
+Lucy, which starred Scarlett Johansson and Morgan Freeman.
+Les Miserables, which starred Anne Hathaway and Hugh Jackman.
+Avengers: Age of Ultron, which starred Scarlett Johansson, Chris Evans, Chris Hemsworth, and Andy Serkis.
+The Conjuring, which starred Vera Farmiga and Patrick Wilson.
+
+ThreeDegrees prints out the following when this test file is used:
+
+Enter movie data filename:
+mymovies
+TheConjuring:  Vera Farmiga, Patrick Wilson
+LesMiserables:  Anne Hathaway, Hugh Jackman
+BrokebackMountain:  Heath Ledger, Anne Hathaway
+LordoftheRings:  Andy Serkis, Elijah Wood, Orlando Bloom, Sean Bean
+TheDarkKnight:  Christian Bale, Morgan Freeman, Heath Ledger
+Lucy:  Scarlett Johansson, Morgan Freeman
+AvengersAgeofUltron:  Scarlett Johansson, Chris Evans, Chris Hemsworth, Andy Serkis
+ThePrestige:  David Bowie, Christian Bale, Scarlett Johansson, Andy Serkis, Hugh Jackman
+
+Enter first actor name (two case-sensitive words):
+Vera Farmiga
+Enter second actor name (two case-sensitive words):
+Andy Serkis
+There is no connection between these actors. Sorry. Try again.
+Enter first actor name (two case-sensitive words):
+Andy Serkis
+Enter second actor name (two case-sensitive words):
+Chris Evans
+Andy Serkis was in AvengersAgeofUltron
+with Chris Evans
+Enter first actor name (two case-sensitive words):
+Scarlett Johansson
+Enter second actor name (two case-sensitive words):
+Morgan Freeman
+Scarlett Johansson was in Lucy
+with Morgan Freeman
+Enter first actor name (two case-sensitive words):
+Morgan Freeman
+Enter second actor name (two case-sensitive words):
+Morgan Freeman
+Those are the same actors. Try again.
+Enter first actor name (two case-sensitive words):
+Pepe Frog
+Pepe Frog is not known.
+Enter first actor name (two case-sensitive words):
+Scarlett Johansson
+Enter second actor name (two case-sensitive words):
+Pepe Frog
+Pepe Frog is not known.
+Enter first actor name (two case-sensitive words):
+Andy Serkis
+Enter second actor name (two case-sensitive words):
+Scarlett Johansson
+Andy Serkis was in ThePrestige
+with Scarlett Johansson
+
+As you can see, the file runs properly using multiple different checks as to whether actors exist, if they are in the
+same movie, if they are the same actor, and just overall connections.
